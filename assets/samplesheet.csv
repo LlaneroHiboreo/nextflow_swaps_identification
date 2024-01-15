@@ -1,0 +1,4 @@
+sample,patient,status,bam,bai
+sample1,patient1,0,/path/to/file.bam,/path/to/file.bai
+sample2,patient2,1,/path/to/file2.bam,/path/to/file2.bai
+
