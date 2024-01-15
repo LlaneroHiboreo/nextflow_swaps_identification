@@ -2,7 +2,7 @@
 
 Pipeline to checks that all data in the set comes from the same individual.
 
-[Pipeline Structure](./assets/swaps.png)
+![Pipeline Structure](./assets/swaps.png)
 
 ## Overview
 This document describes the usage of a Nextflow workflow designed for checking wether the samples being used come from the same individual or are not related. Two different tools can be run together or independently. From GATK, tool crosscheckfingerprints and for somalier, extract + relate. This workflow is configured to be run with Docker, Singularity, Conda containers, ensuring reproducibility across different computing environments.
